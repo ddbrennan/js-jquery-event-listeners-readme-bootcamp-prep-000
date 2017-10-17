@@ -5,9 +5,21 @@ function getIt() {
   })
 }
 
+function frameIt() {
+  
+}
+
+function submitIt() {
+  
+}
+
+function pressIt() {
+  
+}
 
 $(document).ready(function(){
   getIt()
-// call functions here
-
+  frameIt()
+  submitIt()
+  pressIt()
 });
