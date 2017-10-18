@@ -6,15 +6,17 @@ function getIt() {
 }
 
 function frameIt() {
-  
+  $('img').on('load', function() {
+    $('img').className = "tasty"
+  })
 }
 
 function submitIt() {
-  
+
 }
 
 function pressIt() {
-  
+
 }
 
 $(document).ready(function(){
